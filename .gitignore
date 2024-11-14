@@ -1,23 +1,77 @@
-e# Ignore Python virtual environment
+# Ignore IDE configuration files
+.vscode/
+.idea/
+
+# Ignore virtual environment
 venv/
 
-# Ignore other common Python library directories
+# Ignore environment files
+.env
+.env.local
+
+# Ignore build artifacts
+*.pyc
 __pycache__/
+*.egg-info/
+*.egg/
+dist/
+build/
+*.pyo
+*.pyd
+*.so
 *.pyc
 *.pyo
 *.pyd
 *.so
 *.egg
-*.egg-info/
-dist/
-build/
 *.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
 *.pyc
 *.pyo
 *.pyd
 *.so
 *.egg
-*.egg-info/
-dist/
-build/
 *.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore library folders
+beautifulsoup4-4.12.3.dist-info/
+bs4/
+certifi/
+charset_normalizer/
+idna/
+requests/
+soupsieve/
+urllib3/
+certifi-2024.8.30.dist-info/
+idna-3.4.dist-info/
+requests-2.31.0.dist-info/
+soupsieve-2.4.dist-info/
+urllib3-1.26.15.dist-info/
